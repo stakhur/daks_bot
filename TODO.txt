@@ -1,0 +1,29 @@
+1. Filter by id (contact)
+
+2. Functionality:
+/help:
+/show_all: show all tasks
+/add_new:
+	add new task to specific position
+	add new task to the end
+/add_new_subtask:
+	add new subtask to specific task to spec pos
+	add new subtask to spec task to the end
+/edit_task: edit task (rename; set pos)
+/edit_subtask: edit subtask of specific task (rename; set pos)
+/remove_task: remove task
+/remove_subtask: remove subtask
+/new_day: [btn] start new day (with confirmation)
+/complete_task: [btn] mark task as completed. Automatically activate next subtask or task
+/next_task: [btn] get next task
+/choose_task: choose specific task
+/show_current: show current task
+/show_time: show time of current task
+
+3. Notification:
+How it is going? You are working on the <task> during <time> minutes/hours
+It is time to start working on the next task
+
+4. Statistic:
+Store the statistic on the days. How long does the task takes the time
+Completed tasks (task - num of times)
